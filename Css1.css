@@ -1,0 +1,256 @@
+*{
+    font-family: Candara;
+}
+#main{
+    font-size: 300%;
+    color: saddlebrown;
+}
+.body{
+    background-color: whitesmoke;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#id{
+    font-size: 250%;
+    color:saddlebrown;
+}
+.nav2 li{
+    display: inline;
+    margin: 30px;
+}
+.nav3 li{
+    display: inline;
+    margin: 20px;
+}
+.first{
+    display: flex;
+    gap:12%;
+}
+.raone:hover{
+    border-radius: 30px;
+    border: 2px solid grey;
+    animation: 3s;
+}
+.img1{
+    width: 25%;
+border-radius: 4px;
+   align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+.second{
+    display: flex;
+    gap:12%;
+}
+.img2{
+    width: 25%;
+    height: 50%;
+    border-radius: 4px;
+    border: 2px solid black;
+     align-items: center;
+    justify-content: space-between;
+}
+.img3{
+    width: 20%;
+    height: 50%;
+    border: 2px solid black;
+     align-items: center;
+    justify-content: space-between;
+}
+button
+{
+    border-radius: 40px;
+    width:80%;
+    color: white;
+    font-size: 400%;
+    padding: 2%;
+    background-color:saddlebrown;
+    text-align: center;
+}
+.main{
+    display: flex;
+    gap: 4%;
+}
+p{
+    font-size: 120%;
+}
+.apple{
+    width:70%;
+}
+.temp{
+    background-color: saddlebrown;
+    color: whitesmoke;
+    padding: 0%;
+    width:40%;
+    border-radius: 10px;
+}
+label{
+
+color: saddlebrown;
+    font-family: Bahnschrift;
+}
+#nop{
+
+    color:saddlebrown;
+    font-family: Bahnschrift;
+    font-size: 200%;
+}
+.active{
+    display: flex;
+
+}
+.hii{
+    padding: 1%;
+    
+}
+.hi{
+    width:70%;
+
+}
+.timo{
+    background-image: url("sarovar.jfif");
+    background-size: cover;
+opacity: 0.8;
+
+
+}
+.quit{
+
+    padding: 3%;
+}
+.hint{
+    color:white;
+    font-size: 250%;
+    font-family: Bahnschrift;
+    background-color: saddlebrown;
+    padding: 7px;
+}
+.king{
+   background-color: saddlebrown;
+width: 100%;
+    font-size: 225%;
+    font-family: Bahnschrift;
+    color: white;
+
+}
+input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 8px;
+}
+.said{
+   font-size: 150%;
+    background-color: saddlebrown;
+    color:white;
+    width: 50%;
+    padding: 20px;
+
+    border-radius: 23px;
+}
+.man{
+    display: flex;
+    gap:40px;
+}
+.pre{
+
+    width:200%;
+    padding: 1%;
+}
+.rebel{
+border-radius: 100px;
+}
+.yoyo{
+    padding: 4%;
+}
+.sonio{
+    border: 2px solid darkseagreen;
+    border-radius: 30px;
+    width: 60%;
+
+}
+.wait{
+    display: flex;
+    gap:20px;
+    padding: 1%;
+}
+.long{
+    width: 40%;
+}
+.ahad{
+    width: 30%;
+    border: 2px solid darkseagreen;
+    border-radius: 30px;
+}
+.ritik{
+    width: 80%;
+
+}
+.gian{
+
+    width: 70%;
+border: 3px solid lightgrey;
+    border-radius: 15px;
+
+}
+.pop{
+    padding: 8%;
+    width: 85%;
+    border-radius: 10px;
+    border: 3px solid saddlebrown;
+    font-family: Bahnschrift;
+    font-size: 100%;
+}
+.tech{
+    border-radius: 10px;
+    border: 3px solid saddlebrown;
+    font-family: Bahnschrift;
+    font-size: 100%;
+}
+.lion{
+        border-radius: 10px;
+    border: 3px solid saddlebrown;
+    font-family: Bahnschrift;
+    font-size: 100%;
+}
+.tiger{
+    border-radius: 20px;
+    width: 60%;
+    background-color: saddlebrown;
+    color: white;
+    font-size: 120%;
+    font-family: Bahnschrift;
+}
+.oreo{
+
+    padding: 0%;
+    width: 50%;
+}
+.motion{
+    display: flex;
+}
+.bond{
+    font-size: 300%;
+    font-family: Bahnschrift;
+    color: saddlebrown;
+}
+.jon{
+    font-size: 270%;
+    font-family: Bahnschrift;
+}
+.robot{
+    padding: 1%;
+
+border-radius: 15px;
+    font-size:160%;
+}
+#room{
+
+      padding: 1%;
+width: 103%;
+border-radius: 15px;
+    font-size:160%;
+}

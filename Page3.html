@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel-Booking</title>
+    <link rel="stylesheet" href="Css1.css">
+</head>
+<body class="timo">
+<div class="nav">
+    <div class="nav1">
+        <img src="shyaam.png"width="30%">
+        <h1 id="main"><b>HOTEL SHYAMA SAROVAR</b></h1>
+    </div>
+    <div class="nav2">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <a href="Page1.html"><li>GALLERY</li></a>
+            <a href="Page2.html"><li>REGISTRATION</li></a>
+            <li>BOOK</li>
+            <a href="Page4.html"><li>CONTACT</li></a>
+        </ul>
+    </div>
+</div>
+<div class="quit">
+    <h1 class="hint" align="center"><b>Booking Information</b></h1>
+    <form id="BookingForm">
+       <div class="man">
+        <div class="pre">
+            <label class="king">Check In:</label><br><br>
+            <input class="robot" type="date"id="Checkin" required>
+        </div><br><br>
+        <div class="pre">
+            <label class="king">Check Out: </label><br><br>
+            <input class="robot" type="date"id="Checkout" required>
+        </div><br><Br></div><Br><Br>
+        <div class="man">
+             <div class="pre">
+            <label class="king">Guest:  </label><br><br>
+            <input class="robot" type="text"id="Guests" required>
+        </div><br><br>
+             <div class="pre">
+            <label class="king">Room:  </label><br><br>
+          <select id="room">
+              <option value="">__Selected Room__</option>
+              <option value="">Single</option>
+              <option value="">Double</option>
+              <option value="">Deluxe</option>
+          </select>
+        </div><br><br>
+        </div>
+        <br><br><br>
+        <center>
+            <button class="said"onclick="lol()">Check Availablity</button></center>
+    </form>
+</div>
+<script>
+
+ const form =document.getElementById("BookingForm");
+    const message = document.getElementById("message");
+    form.addEventListener("Submit",function (e) {
+        e.preventDefault();
+        const Checkin = document.getElementById("Checkin").value;
+        const Checkout = document.getElementById("Checkout").value;
+        const Guests = document.getElementById("Guests").value;
+        const room = document.getElementById("room").value;
+      if(
+          Checkin ===""||
+          Checkout===""||
+          Guests===""||
+          room ===""
+      )  {
+          message.textContent=" Your Form is Not Submitted!";
+          message.style.color="red";
+          form.reset();
+      }
+      else{
+          message.textContent="Your Form is Submitted!";
+          message.style.color="Green";
+          form.reset();
+      }
+    });
+</script>
+</body>
+</html>
